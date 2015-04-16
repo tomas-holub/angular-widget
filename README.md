@@ -1,6 +1,8 @@
 # angular-widget
 Set of directives which provides resize and drag and drop of recursive widget elements
 
+- any widget can be resized and drag and droped respecting its parent
+
 [Example of usage on Codepen](http://codepen.io/tomas-holub/pen/YXKKBB)
 
 - create the widget definition object and attach it to the controller scope:
