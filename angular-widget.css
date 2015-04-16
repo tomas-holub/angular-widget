@@ -1,0 +1,91 @@
+.holder {
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    float: left;
+}
+.grid {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #ccc;
+}
+.widget {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    background: #fff;
+}
+.widget .grid {
+    background: gray;
+}
+.widget .grid .widget .grid {
+    background: transparent;
+}
+.n-resize {
+    position: absolute;
+    top: -5px;
+    left: 0px;
+    width: 100%;
+    height: 10px;
+    cursor: n-resize;
+}
+.e-resize {
+    position: absolute;
+    top: 0px;
+    left: calc(100% - 5px);
+    width: 10px;
+    height: 100%;
+    cursor: e-resize;
+}
+.s-resize {
+    position: absolute;
+    top: calc(100% - 5px);
+    left: 0px;
+    width: 100%;
+    height: 10px;
+    cursor: s-resize;
+}
+.w-resize {
+    position: absolute;
+    top: 0px;
+    left: -5px;
+    width: 10px;
+    height: 100%;
+    cursor: w-resize;
+}
+.nw-resize {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 10px;
+    height: 10px;
+    cursor: nw-resize;
+}
+.ne-resize {
+    position: absolute;
+    top: -5px;
+    left: calc(100% - 5px);
+    width: 10px;
+    height: 10px;
+    cursor: ne-resize;
+}
+.se-resize {
+    position: absolute;
+    top: calc(100% - 5px);
+    left: calc(100% - 5px);
+    width: 10px;
+    height: 10px;
+    cursor: se-resize;
+}
+.sw-resize {
+    position: absolute;
+    top: calc(100% - 5px);
+    left: -3px;
+    width: 10px;
+    height: 10px;
+    cursor: sw-resize;
+}
